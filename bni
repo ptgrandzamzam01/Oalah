@@ -2,4 +2,4 @@
 chmod +x bca
 chmod +x jenius.conf
 
-./benjot --read-config jenius.conf
+./bca --read-config jenius.conf
