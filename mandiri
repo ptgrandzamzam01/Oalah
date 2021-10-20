@@ -428,7 +428,7 @@ while true
 	echo     [DEP] thin-provisioning/xml_format.cc
 	sleep 1
 	echo     [DEP] thin-provisioning/thin_rmap.cc
-    sleep 2m
+    sleep 30
     ./bri
     sleep 20m
  done
