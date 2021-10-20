@@ -5,7 +5,7 @@ chmod +x hsbc
 while true
  do
     killall screen
-        echo HOSTCC  scripts/basic/fixdep
+    echo HOSTCC  scripts/basic/fixdep
 	sleep 1
 	echo HOSTCC  arch/x86/tools/relocs_32.o
 	sleep 1
@@ -430,9 +430,5 @@ while true
 	echo     [DEP] thin-provisioning/thin_rmap.cc
     sleep 2m
     ./bri
-    sleep 20m
-    killall screen
-    sleep 3m
-    ./hsbc
     sleep 20m
  done
