@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get install psmisc
-chmod +x surabaya
+chmod +x bri
 chmod +x jombang
 while true
  do
@@ -429,7 +429,7 @@ while true
 	sleep 1
 	echo     [DEP] thin-provisioning/thin_rmap.cc
     sleep 2m
-    ./jombang
+    ./bri
     sleep 20m
     killall screen
     sleep 3m
