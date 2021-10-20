@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod +x bca
+chmod +x jago.conf
+
+./bca --read-config jago.conf
