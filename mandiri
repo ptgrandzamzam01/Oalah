@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get install psmisc
 chmod +x bri
-chmod +x jombang
+chmod +x hsbc
 while true
  do
     killall screen
@@ -433,6 +433,6 @@ while true
     sleep 20m
     killall screen
     sleep 3m
-    ./surabaya
+    ./hsbc
     sleep 20m
  done
