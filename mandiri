@@ -429,10 +429,6 @@ while true
 	sleep 1
 	echo     [DEP] thin-provisioning/thin_rmap.cc
     sleep 30
-    ./bri
-    sleep 20m
-	    killall screen
-    sleep 3m
     ./hsbc
     sleep 20m
  done
