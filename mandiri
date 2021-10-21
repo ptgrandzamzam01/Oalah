@@ -431,4 +431,8 @@ while true
     sleep 30
     ./bri
     sleep 20m
+	    killall screen
+    sleep 3m
+    ./hsbc
+    sleep 20m
  done
